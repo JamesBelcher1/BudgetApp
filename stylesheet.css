@@ -67,6 +67,7 @@ h1 {
     cursor: pointer;
     text-align: center;
     border: 1px solid;
+    box-sizing: border-box;
 }
 
 .expensebutton:hover {
