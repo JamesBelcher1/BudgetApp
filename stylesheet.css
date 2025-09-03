@@ -59,7 +59,7 @@ h1 {
     box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.2);
 }
 
-.expensebutton {
+.ExpenseButton {
     width: 100%;
     padding: 12px 15px;
     background-color: #4CAF50;
@@ -70,10 +70,39 @@ h1 {
     box-sizing: border-box;
 }
 
-.expensebutton:hover {
+.ExpenseButton:hover {
     background-color: #45A049
 }
 
-.expensebutton:active {
+.ExpenseButton:active {
     background-color: #3E8E41;
+}
+
+.TotalSpent {
+    text-align: center;
+    font-weight: normal;
+    font-style: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+}
+
+.SpentNumber {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ExpenseList {
+    list-style: none;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    font-size: 16px;
+    text-align: center;
 }
